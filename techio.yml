@@ -41,5 +41,5 @@ plan:
 projects:
     ada:
         root: /ada-project
-        runner: adarunner:1
+        runner: python:3
 
