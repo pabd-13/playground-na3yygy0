@@ -1,0 +1,10 @@
+#!/bin/bash
+echo
+pwd
+
+echo
+ls -alhv
+
+echo
+wc mission1.adb
+
