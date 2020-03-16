@@ -1,4 +1,16 @@
-title: Exercices complémentaires Ada
+title: Travail personnel Ada
+
 plan:
 - title: Welcome Test
   statement: markdowns/welcome.md
+
+plan:
+    - title: Exercices complémentaires
+      description: Plateforme pour travailler sur les exercices complémentaires Ada.
+      plan:
+         - title: Lesson Test 1
+           statement: /path/to/lesson1.md
+         - title: Lesson Test 2
+           statement: /path/to/lesson2.md
+         - title: Lesson Test 3
+           statement: /path/to/lesson3.md
