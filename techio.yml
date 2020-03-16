@@ -41,5 +41,5 @@ plan:
 projects:
     ada:
         root: /ada-project
-        buildCommand: ./run.sh
-        runner: ada-runner: 1
+        runner: adarunner:1
+
