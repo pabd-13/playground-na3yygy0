@@ -41,5 +41,6 @@ plan:
 projects:
     ada:
         root: /ada-project
+	## Name of the docker image
         runner: python:3
 
