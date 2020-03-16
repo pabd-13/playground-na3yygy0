@@ -1,4 +1,4 @@
-title: Custom Template
+title: Test Title
 plan:
-- title: Welcome
+- title: Welcome Test
   statement: markdowns/welcome.md
