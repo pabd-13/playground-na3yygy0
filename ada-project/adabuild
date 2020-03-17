@@ -5,6 +5,21 @@ set -e
 
 current=`pwd`
 
+echo "===== DEBUG TEST =====" >&2
+
+ls -alhv /tmp
+echo
+echo
+pwd
+echo
+echo
+ls -alhv 
+echo
+echo
+ls -alhv *
+echo
+echo
+
 echo "===== Compilation de $1 =====" >&2
 echo >&2
 cp $1 /tmp/
