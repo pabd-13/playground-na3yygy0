@@ -23,9 +23,11 @@ package body GAda.Core is
    procedure Put_Err (Item : in String) is
    begin
       Txt.New_Line ;
-      Txt.Put_Line(" -~-~-~-~-~-~-~- ERREUR ~-~-~-~-~-~-~-~-~ ") ;
+      Txt.New_Line ;
+      Txt.Put_Line(Character'Val(27) & "[31m -~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~  ERREUR  ~-~-~-~-~-~-~-~-~~-~-~-~-~-~-~-~-~- ") ;
       Txt.Put_Line(Item) ;
-      Txt.Put_Line(" -~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~ ") ;
+      Txt.Put_Line(" -~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~- ") ;
+      Txt.New_Line ;
       Txt.New_Line ;
    end Put_Err ;
       
