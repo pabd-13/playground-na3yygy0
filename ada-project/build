@@ -1,3 +1,11 @@
 #! /bin/bash
 
-gnatmake -aI/Sources $1 -o exe && ./exe
+echo "===== Compilation de $1 ====="
+echo
+gnatmake -aI/Sources $1 -D /tmp -o /tmp/exe 
+
+echo
+echo
+echo "===== Exécution de $1 ====="
+echo
+./exe
