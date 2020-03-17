@@ -42,5 +42,5 @@ projects:
     ada:
         root: /ada-project
         ## Name of the docker image
-        runner: python:3
+        runner: lebotlan/mini-gnat:0.2
 
