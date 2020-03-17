@@ -1,7 +1,5 @@
 #!/bin/bash
 
-exit 42
-
 touch OK_launched_here
 touch /tmp/OK_launched_there
 
