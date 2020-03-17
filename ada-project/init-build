@@ -1,5 +1,4 @@
 #!/bin/bash
 
-sudo chmod 777 Include
-cd Include
-gnatmake *.adb
+sudo chmod 777 Include*
+(cd IncludeGada && gnatmake *.adb)
