@@ -7,7 +7,7 @@ echo "===== Compilation de $1 =====" >&2
 echo >&2
 cp $1 /tmp/
 cd /tmp/
-gnatmake -aI/Sources $1 -o /tmp/exe
+gnatmake -aI/Include $1 -o /tmp/exe
 
 echo
 echo
