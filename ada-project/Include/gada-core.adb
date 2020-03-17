@@ -81,7 +81,7 @@ package body GAda.Core is
 
    procedure Replace (Item : in String) is
    begin
-      Txt.Put("\r" & Item) ;
+      Txt.Put(Character'Val(13) & Item) ;
    end Replace ;
 
 end GAda.Core ;
