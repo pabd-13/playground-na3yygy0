@@ -41,6 +41,6 @@ plan:
 projects:
     ada:
         root: /ada-project
-        ## Name of the docker image
+        ## Name of the docker image  (can be replaced by latest)
         runner: lebotlan/mini-gnat:0.2
 
