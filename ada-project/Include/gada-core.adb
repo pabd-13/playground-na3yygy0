@@ -20,13 +20,17 @@ package body GAda.Core is
       Txt.Put_Line("") ;
    end New_Line ;
    
+   Esc : Character := Character'Val(27) ;
+   BRed : String := Esc & "[31m" & Esc & "[1m";
+   Std : String := Esc & "[0m" ;
+   
    procedure Put_Err (Item : in String) is
    begin
       Txt.New_Line ;
       Txt.New_Line ;
-      Txt.Put_Line(Character'Val(27) & "[31m -~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~  ERREUR  ~-~-~-~-~-~-~-~-~~-~-~-~-~-~-~-~-~- ") ;
-      Txt.Put_Line(Item) ;
-      Txt.Put_Line(" -~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~- ") ;
+      Txt.Put_Line(BRed & " -~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~  ERREUR  ~-~-~-~-~-~-~-~-~~-~-~-~-~-~-~-~-~- ") ;
+      Txt.Put_Line(BRed & "    " & Item) ;
+      Txt.Put_Line(BRed & " -~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~- " & Std) ;
       Txt.New_Line ;
       Txt.New_Line ;
    end Put_Err ;
