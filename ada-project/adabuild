@@ -24,7 +24,7 @@ echo "===== Compilation de $1 =====" >&2
 echo >&2
 cp $1 /tmp/
 cd /tmp/
-gnatmake -I${current}/IncludeGada $1 -o /tmp/exe
+gnatmake -I${current}/IncludeGada -I${current}/IncludeExosS2 $1 -o /tmp/exe
 
 echo
 echo

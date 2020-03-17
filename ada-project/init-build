@@ -2,3 +2,4 @@
 
 sudo chmod 777 Include*
 (cd IncludeGada && gnatmake *.adb)
+(cd IncludeExosS2 && gnatmake *.adb)
