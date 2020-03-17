@@ -43,4 +43,4 @@ projects:
         root: /ada-project
         ## Name of the docker image  (can be replaced by latest)
         runner: lebotlan/mini-gnat:0.2
-
+        buildCommand: cd /project/target && ./init-build
