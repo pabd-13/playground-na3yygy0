@@ -1,8 +1,5 @@
 #!/bin/bash
 
-touch OK_launched_here
-#touch /tmp/OK_launched_there
-
-#sudo chmod 777 Include
-#cd Include
-#gnatmake *.adb
+sudo chmod 777 Include
+cd Include
+gnatmake *.adb
