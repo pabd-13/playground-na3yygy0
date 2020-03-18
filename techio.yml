@@ -20,7 +20,7 @@ plan:
            statement: exos/question3.1.md
          - title: Structure imbriquée simple (tableau et record).
            statement: exos/question3.2.md
-         - title: Exercice : Structure imbriquée complexe.
+         - title: Structure imbriquée complexe.
            statement: exos/question3.3.md
 
     - title: Exercice sur TOUT - semestre 2
