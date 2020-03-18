@@ -24,21 +24,29 @@ package body GAda.Core is
    BRed : String := Esc & "[31m" & Esc & "[1m";
    Std : String := Esc & "[0m" ;
    
-   procedure Put_Err (Item : in String) is
+   procedure Put_Errn (Item1, Item2, Item3 : in String) is
    begin
       Txt.New_Line ;
       Txt.New_Line ;
       Txt.Put_Line(BRed & " -~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~  ERREUR  ~-~-~-~-~-~-~-~-~~-~-~-~-~-~-~-~-~--~-~-~-~-~ ") ;
-      Txt.Put_Line(BRed & "    " & Item) ;
+      Txt.Put_Line(BRed & "    " & Item1) ;
+      if Item2'Length > 0 then Txt.Put_Line(BRed & "    " & Item2) ; end if ;
+      if Item3'Length > 0 then Txt.Put_Line(BRed & "    " & Item3) ; end if ;
       Txt.Put_Line(BRed & " -~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~--~-~-~-~-~ " & Std) ;
       Txt.New_Line ;
       Txt.New_Line ;
+   end Put_Errn ;
+   
+   procedure Put_Err (Item : in String) is
+   begin
+      Put_Errn(Item, "", "") ;
    end Put_Err ;
-      
+
    
    function FGet return String is
    begin
-      Put_Err("Attention, appel à la fonction FGET, qui n'est pas disponible ici, sur tech.io.") ;
+      Put_Errn("Attention, appel à la fonction FGET, qui n'est pas disponible ici, sur tech.io.",
+	       "Remplacez l'appel à FGET par une valeur,  par exemple ""John"".", "") ;
       raise Program_Error ;
       return "" ;
    end FGet ;
@@ -67,7 +75,8 @@ package body GAda.Core is
 
    function FIGet return Integer is
    begin
-      Put_Err("Attention, appel à la fonction FGET, qui n'est pas disponible ici, sur tech.io.") ;
+      Put_Errn("Attention, appel à la fonction FGET, qui n'est pas disponible ici, sur tech.io.",
+	       "Remplacez l'appel à FGET par une valeur,  par exemple 12.", "") ;
       raise Program_Error ;
       return 0 ;
    end FIGet ;
@@ -80,7 +89,8 @@ package body GAda.Core is
    
    function FFGet return Float is
    begin
-      Put_Err("Attention, appel à la fonction FGET, qui n'est pas disponible ici, sur tech.io.") ;
+      Put_Errn("Attention, appel à la fonction FGET, qui n'est pas disponible ici, sur tech.io.",
+	       "Remplacez l'appel à FGET par une valeur,  par exemple 4.35", "") ;
       raise Program_Error ;
       return 0.0 ;
    end FFGet ;

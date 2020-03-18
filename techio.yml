@@ -13,27 +13,21 @@ plan:
          - title: Transformation de séquence
            statement: exos/question2.md
 
-    - title: Exercice sur les matrices et structures imbriquées
+    - title: Exercices sur les matrices et structures imbriquées
       description:
       plan:
-         - title: Question 3.1
-           statement: exos/undone.md
-         - title: Question 3.2
-           statement: exos/undone.md
-
-    - title: Exercices sur les structures imbriquées
-      description:
-      plan:
-         - title: Question 4.1
-           statement: exos/undone.md
-         - title: Question 4.2
-           statement: exos/undone.md
+         - title: Transformation de la table de caractères
+           statement: exos/question3.1.md
+         - title: Structure imbriquée simple (tableau et record).
+           statement: exos/question3.2.md
+         - title: Exercice : Structure imbriquée complexe.
+           statement: exos/question3.3.md
 
     - title: Exercice sur TOUT - semestre 2
       description:
       plan:
-         - title: Question 5.1
-           statement: exos/undone.md
+         - title: Questions 1 à 8
+           statement: exos/exotout.md
 
 
 projects:
