@@ -2,7 +2,10 @@ title: Exercices complémentaires Ada
 
 plan:
     - title: Exercices de base sur les tableaux
-      statement: exos/question1.md
+      description:
+      plan:
+         - title: Créer, remplir, afficher un tableau d'entiers.
+           statement: exos/question1.md
        
     - title: Exercice sur les types articles, types énumérés et tableaux
       description:
