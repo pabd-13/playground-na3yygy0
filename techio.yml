@@ -10,10 +10,8 @@ plan:
     - title: Exercice sur les types articles, types énumérés et tableaux
       description:
       plan:
-         - title: Question 2.1
-           statement: exos/undone.md
-         - title: Question 2.2
-           statement: exos/undone.md
+         - title: Transformation de séquence
+           statement: exos/question2.md
 
     - title: Exercice sur les matrices et structures imbriquées
       description:
