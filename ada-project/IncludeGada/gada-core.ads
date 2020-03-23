@@ -31,6 +31,8 @@ package GAda.Core is
    procedure Put_Err (Item : in String) ;
 
    procedure Replace (Item : in String) ;
-
+   
+   Boucle_Infinie : exception ;
+   
 end GAda.Core ;
 
