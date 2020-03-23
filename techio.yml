@@ -29,6 +29,12 @@ plan:
          - title: Questions 1 à 8
            statement: exos/exotout.md
 
+    - title: Tous les autres exercices
+      description:
+      plan:
+         - title: Espace pour tous les exercices
+	   statement: exos/all.md
+
 
 projects:
     ada:
