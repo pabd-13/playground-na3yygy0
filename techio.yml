@@ -33,7 +33,7 @@ plan:
       description:
       plan:
          - title: Espace pour tous les exercices
-	   statement: exos/all.md
+           statement: exos/all.md
 
 
 projects:
