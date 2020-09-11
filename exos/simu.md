@@ -1,8 +1,6 @@
 # Première partie du 1er TP : écrire un programme qui utilise l'acteur Simulation
 
-Examinez l'acteur simulation :
-
-[Simulation](http://wwwperso.insa-toulouse.fr/~lebotlan/Y/Ada-S1/acteurs-insa-air/simulation.ads.html)
+Examinez l'acteur simulation : [Simulation](http://wwwperso.insa-toulouse.fr/~lebotlan/Y/Ada-S1/acteurs-insa-air/simulation.ads.html)
 
 
 Vous devez écrire un programme qui demande l'autorisation de roulage. (Le corps du programme fait une ligne).
