@@ -35,6 +35,12 @@ plan:
          - title: Espace pour tous les exercices
            statement: exos/all.md
 
+    - title: Se préparer au premier TP (Simulation)
+      description:
+      plan:
+         - title: Premier TP (Simulation)
+           statement: exos/simu.md
+
 
 projects:
     ada:
