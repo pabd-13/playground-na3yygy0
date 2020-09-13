@@ -42,7 +42,7 @@ plan:
            statement: exos/simu.md
 
          - title: Tester les programmes demandés
-           statement: exos/test.md
+           statement: exos/tests.md
 
 
 projects:
