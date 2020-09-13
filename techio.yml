@@ -35,11 +35,14 @@ plan:
          - title: Espace pour tous les exercices
            statement: exos/all.md
 
-    - title: Se préparer au premier TP (Simulation)
+    - title: Pour les cours à distance du semestre 1
       description:
       plan:
-         - title: Premier TP (Simulation)
+         - title: Se préparer au premier TP (Simulation)
            statement: exos/simu.md
+
+         - title: Tester les programmes demandés
+	   statement: exos/test.md
 
 
 projects:
