@@ -6,9 +6,11 @@ Examinez l'acteur simulation : [Simulation](http://wwwperso.insa-toulouse.fr/~le
  - Vous devez écrire un programme qui demande l'autorisation de roulage. (Le corps du programme est constitué d'une seule ligne).
 
  - Si vous avez réussi, l'exécution vous indique "Demande autorisation de roulage ... accordée."
+ 
+ - Si ce n'est pas encore fait, allez lire le cours S1E2 (sur le site du cours).
 
  - Vous pouvez ensuite essayer de rouler vers le point L. Un message vous indiquera que votre avion roule vers le point L.
-   Si vous bloquez, lisez d'abord le cours S1E2 (sur le site du cours), et revenez ici ensuite.
+   Aide : rappelez-vous comment écrire un caractère (Types de Base dans l'aide-mémoire).
 
  - Ensuite, vous pouvez essayer de terminer la première mission (cf le [Cahier des charges](http://wwwperso.insa-toulouse.fr/~lebotlan/Y/Ada-S1/tp-m1.html)).
    Vous n'avez pas besoin des consignes détaillées de la Partie 1 lorsque vous êtes ici sur Tech-IO, car il suffit de cliquer
