@@ -19,7 +19,7 @@ package body Simulation is
       raise Fatal_Error ;
    end Failwith ;
 
-   procedure Temporisation(N : Integer ; T : Duration := 0.4) is
+   procedure Temporisation(N : Integer ; T : Duration := 0.1) is
    begin
       for I in 1..N loop
          Txt.Put(".") ;
@@ -80,7 +80,7 @@ package body Simulation is
                Temporisation (3) ;
                Txt.New_Line ;
                Txt.Put ("Accélération") ;
-               Temporisation (32, 0.1) ;
+               Temporisation (32, 0.05) ;
                Txt.New_Line ;
                Txt.Put ("Freinage") ;
                Temporisation (4) ;
