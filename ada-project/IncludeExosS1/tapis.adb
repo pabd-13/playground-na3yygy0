@@ -59,7 +59,7 @@ package body Tapis is
       
       Steps := Steps + 1 ;
       
-      delay 0.1 ;
+      delay 0.05 ;
       Txt.Put_Line("[Avancer tapis]") ;
       
       -- On ne peut faire avancer le tapis tant qu'on à pas vidé la zone
@@ -81,7 +81,7 @@ package body Tapis is
    -- Renvoie vrai si un produit est dans la zone de mesure
    function Produit_Dans_Zone return Boolean is
    begin
-      delay 0.2 ;
+      delay 0.1 ;
       return Le_Tapis(0);
    end Produit_Dans_Zone;
    
@@ -107,7 +107,7 @@ package body Tapis is
    function Est_Vide return Boolean is
       Vide : Boolean := true;
    begin
-      delay 0.2 ;
+      delay 0.1 ;
       
       -- recherche d'une élément non vide dans le tableau
       for Position in Le_Tapis'Range loop
