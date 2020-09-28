@@ -29,7 +29,7 @@ package body Cartographie is
 
    function Coords_Avion return T_Coords is
    begin
-      return (43.628210, 1.363110) ;
+      return (Lat => 43.628210, Long => 1.363110) ;
    end Coords_Avion ;
 
    function Rad2Deg (A : Float) return Float is
