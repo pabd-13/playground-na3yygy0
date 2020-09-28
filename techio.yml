@@ -44,6 +44,21 @@ plan:
          - title: Tester les programmes demandés
            statement: exos/tests.md
 
+         - title: Page libre A
+           statement: exos/tests.md
+
+         - title: Page libre B
+           statement: exos/tests.md
+
+         - title: Page libre C
+           statement: exos/tests.md
+
+         - title: Page libre D
+           statement: exos/tests.md
+
+         - title: Page libre E
+           statement: exos/tests.md
+
 
 projects:
     ada:
