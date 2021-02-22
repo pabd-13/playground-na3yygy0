@@ -18,7 +18,7 @@ package body Briques is
    begin
       return ( Alpha => (S * S * S) mod 1000,
 	       Beta  => (31 + S * S * S * S) mod 2000,
-	       Gamma => T_Indication'Val( (11 + S * S) mod (1 + T_Indication'Pos((T_Indication'Last)))),
+	       Gamma => T_Indication'Val( (11 + S) mod (1 + T_Indication'Pos((T_Indication'Last)))),
 	       Mu    => (S mod 2 = 0),
 	       Sigma => Build_Itab(S, 20) ) ;
    end Build_Rec ;

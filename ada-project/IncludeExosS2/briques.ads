@@ -10,6 +10,7 @@ package Briques is
    --
    -- Des types imbriqués
    --
+   
    type T_Indication is (Ailleurs, Ici, Autour, Cette_Colonne, Cette_Ligne) ;
    
    type T_Tab is array(Integer range <>) of Integer ;
