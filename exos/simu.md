@@ -7,7 +7,7 @@ Examinez l'acteur simulation : [Simulation](http://wwwperso.insa-toulouse.fr/~le
 
  - Si vous avez réussi, l'exécution vous indique "Demande autorisation de roulage ... accordée."
  
- - Si ce n'est pas encore fait, allez lire le cours S1E2 (sur le site du cours).
+ - La suite est facultative.
 
  - Vous pouvez ensuite essayer de rouler vers le point L. Un message vous indiquera que votre avion roule vers le point L.
    Aide : rappelez-vous comment écrire un caractère (Types de Base dans l'aide-mémoire).
