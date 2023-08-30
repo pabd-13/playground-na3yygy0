@@ -8,6 +8,8 @@ Vous pouvez écrire ici n'importe quel programme Ada. Voici la liste des package
 
  * Exos du semestre 1 : Auto, Rois, Villes, Tapis, Outil_de_Mesure
 
+ * Il n'y a pas les avions (Tour, Avion_Sol, INSA_Air, etc.). Ce serait trop compliqué.
+
 
 S'il manque un acteur, réclamez-le à M. Le Botlan.
 
